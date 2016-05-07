@@ -1,0 +1,9 @@
+Terraform - Debian Live configuration and scripts for generating budgie-remix OS images.
+
+To build an budgie-remix image you'll need to:
+ 1) Add budgie-remix-development ppa https://launchpad.net/~budgie-remix/+archive/ubuntu/development
+ 2) Make sure you have the dependencies installed (dctrl-tools dpkg-dev genisoimage gfxboot-theme-ubuntu git-core isolinux syslinux-theme-budgie-remix-xenial live-build python-minimal squashfs-tools syslinux syslinux-utils zsync)
+ 3) Change your working directory to this folder
+ 4) Configure etc/terraform.conf or leave it as-is
+ 5) Run ./terraform.sh as root
+ 6) When done, your images will be in the builds folder

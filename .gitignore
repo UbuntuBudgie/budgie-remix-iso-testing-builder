@@ -1,0 +1,5 @@
+builds/
+tmp/
+syslinux-themes-budgie-remix/
+*/.bzr/
+*/.bzr-builddeb/

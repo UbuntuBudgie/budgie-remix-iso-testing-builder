@@ -1,0 +1,4 @@
+deb http://ppa.launchpad.net/budgie-remix/ppa/ubuntu xenial main
+# deb-src http://ppa.launchpad.net/budgie-remix/ppa/ubuntu xenial main
+deb http://ppa.launchpad.net/budgie-remix/development/ubuntu xenial main 
+# deb-src http://ppa.launchpad.net/budgie-remix/development/ubuntu xenial main 
