@@ -9,7 +9,6 @@ lb config noauto \
     --architecture "$ARCH" \
     --binary-images iso-hybrid \
     --bootloader syslinux \
-    --initramfs-compression lzma \
     --bootstrap-keyring ubuntu-keyring \
     --build-with-chroot false \
     --distribution "$BASECODENAME" \
@@ -17,7 +16,7 @@ lb config noauto \
     --tasks \
     --iso-application "$NAME" \
     --iso-volume "$NAME" \
-    --memtest memtest86+ \
+    --memtest  \
     --mode ubuntu \
     --parent-archive-areas "main restricted universe multiverse" \
     --source false \
