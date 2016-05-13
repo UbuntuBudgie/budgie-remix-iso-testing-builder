@@ -16,7 +16,7 @@ lb config noauto \
     --tasks \
     --iso-application "$NAME" \
     --iso-volume "$NAME" \
-    --memtest  \
+    --memtest memtest86+ \
     --mode ubuntu \
     --parent-archive-areas "main restricted universe multiverse" \
     --source false \
